@@ -22,9 +22,9 @@ PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend(
 
 
 def setup_platform(hass, config, add_entities, discovery_info=None):
-    """Set up the duino sensors."""
+    """Set up the DUCO sensors."""
     username = config.get(CONF_USERNAME)
-    name = "DUINO Balance"
+    name = "DUCO Balance"
    
 
     add_entities([DuinocoinscanSensor(name, username)], True)
@@ -38,7 +38,7 @@ class DuinocoinscanSensor(SensorEntity):
         self._name = name
         self.username =  username
         self._state = None
-        self._unit_of_measurement = "DUINO"    
+        self._unit_of_measurement = "DUCO"    
 
     @property
     def name(self):
