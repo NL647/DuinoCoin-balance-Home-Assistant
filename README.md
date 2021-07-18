@@ -1,6 +1,6 @@
 # [DuinoCoin](https://github.com/revoxhere/duino-coin) add-on for [Home Assistant](https://www.home-assistant.io/)
 
-This is a custom components for home assistant to get your Duinocoin balance is home assistant.
+This is a custom components for home assistant to get your Duinocoin balance in Home Assistant.
 
 ![addon duino coin](/img/img.PNG "addon duinocoin for home assistant")
 
