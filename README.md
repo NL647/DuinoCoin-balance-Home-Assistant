@@ -8,7 +8,7 @@ This is a custom components for home assistant to get your Duinocoin balance is 
 
 Download the repo  
 Put the dowloaded folder named "duinocoin" in your "custom_components" folder.  
-Add this line to your "configuartion.yaml" file.  
+Add this line to your "configuration.yaml" file.  
 
 ```yaml
 #SENSORS
