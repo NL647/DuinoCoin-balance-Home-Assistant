@@ -9,7 +9,7 @@ import homeassistant.helpers.config_validation as cv
 
 ATTRIBUTION = "Data provided by wallet.duinocoin.com"
 CONF_USERNAME = "username"
-SCAN_INTERVAL = timedelta(minutes=5)
+SCAN_INTERVAL = timedelta(minutes=30)
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend(
     {
